@@ -5,6 +5,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+/*kata2 con datos de videojuegos*/
+
 public class Main {
     public static void main(String[] args) {
         PlatformLoader loader = new TsvFilePlatformLoader(new File("dato.csv"));
